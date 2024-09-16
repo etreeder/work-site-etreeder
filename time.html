@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <link rel="stylesheet" href="styles/time.css">
+</head>
+<body>
+    <h1>Clock In/Out Calculator</h1>
+    <form id="timeForm">
+        <label for="startTime">Clock In Time:</label>
+        <input type="time" id="startTime" name="startTime" value="07:00" required>
+
+        <label for="hoursWorked">Hours Worked This Week:</label>
+        <input type="number" id="hoursWorked" name="hoursWorked" required>
+
+        <label for="minutesWorked">Minutes Worked This Week:</label>
+        <input type="number" id="minutesWorked" name="minutesWorked" required>
+
+        <label for="totalHoursNeeded">Total Hours Needed for the Week:</label>
+        <input type="number" id="totalHoursNeeded" name="totalHoursNeeded" value="20" required>
+
+        <button type="submit">Calculate Clock Out Time</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="scripts/time.js" defer>console.log("time.js loaded")</script>
+</body>
+</html>
