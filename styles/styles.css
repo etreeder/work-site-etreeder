@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #666999;
+}
+
+body {
+	background-color: #434343;
+	color: #f4f4ff;
+	padding: 20px;
+	width: 80%;
+	margin: 0 auto;
+	clear: both;
+}
+
+header {
+	text-align: center;
+}
+
+nav.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #999
+padding: 10px;
+}
+
+nav a {
+	color: #333
+	
+}
+
+a, a:visited {
+	color: #bbbbff;
+}
+
+th, td {
+	padding: 0px 10px;
+}
+
+#linkBox {
+	display: flex;
+}
+
+#calendarBox {
+	display: flex;
+	align: right;
+}
+
+body footer {
+	clear: both;
+	background-color: #808080;
+	width: 100%;
+	text-align: center;
+}
