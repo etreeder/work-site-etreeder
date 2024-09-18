@@ -1,10 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f0f0f0;
+    background-color: #9c9c9c;
 }
 
 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -12,31 +21,74 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
-label, input {
-    margin: 10px 0;
+fieldset {
+    background-color: #b3b3b3;
+    border: 1px solid #808080;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 10px auto;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 5px;
 }
 
 input {
-    width: 35%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Flexbox to align time inputs in a row */
+.time-input-group {
+    display: flex;
+    align-items: center;
+}
+
+.time-input-group input[type="text"] {
+    width: auto; /* Allow the inputs to shrink to content size */
+    margin-right: 10px; /* Add some space between input fields */
+    max-width: 100px
+}
+
+.time-input-group label {
+    margin-right: 10px; /* Add space between the label and input */
+    min-width: 150px; /* Ensure label has consistent width */
 }
 
 button {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #4CAF50;
+    background-color: #28a745;
     color: white;
     border: none;
+    padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #218838;
 }
 
+/* Result box */
 #result {
-    text-align: center;
+    font-size: 16px;
     margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#subResult {
+    font-size: 11px;
 }

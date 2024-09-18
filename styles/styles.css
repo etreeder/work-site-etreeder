@@ -14,11 +14,7 @@ body {
 	padding: 20px;
 	width: 80%;
 	margin: 0 auto;
-	clear: both;
-}
-
-header {
-	text-align: center;
+	box-shadow: 10px -5px 5px 5px #444777, -10px -5px 5px 5px #444777;
 }
 
 nav.container {
@@ -29,12 +25,18 @@ nav.container {
 	padding: 10px;
 }
 
-nav a {
-	color: #333
-	
+nav a, nav a.visited {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	color: #333333;
 }
 
-a, a:visited {
+nav a:hover {
+	color: #ffffff;
+}
+
+#linkBox a, #linkBox a:visited {
 	color: #bbbbff;
 }
 
