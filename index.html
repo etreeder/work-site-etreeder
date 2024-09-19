@@ -14,35 +14,40 @@
 <a href="time.html">Clock In/Out Calculator</a>
 </nav>
 
-<div id="linkBox">
-<table>
-<tr><th>Links</th><th>Sheets</th></tr>
-<tr>
-<td><a href="https://weber.incidentiq.com/agent/dashboard" target="_blank">Incident IQ</a></td>
-<td><a href="https://docs.google.com/spreadsheets/d/1Q_WJNSCtIsyxsgrHsHiavXnHnuolnEjb6nbdFgs_oyQ/edit?gid=0#gid=0" target="_blank">Repair Tracking</a></td>
-</tr>
-<tr>
-<td><a href="https://techwsd.slack.com/" target="_blank">Slack</a></td>
-<td><a href="https://docs.google.com/spreadsheets/d/1Kso-p55jWbO-GtjlRAWaYnOn4QCK9JyaXzjfmhSV0oo/edit?gid=0#gid=0" target="_blank">Schedule</a></td>
-</tr>
-<tr>
-<td><a href="https://mileage.wsd.net/Account/Login" target="_blank">Mileage</a></td>
-</tr>
-<tr>
-<td><a href="https://techdirect.dell.com/Portal/SelfDispatch.aspx" target="_blank">TechDirect</a></td>
-</tr>
-<tr>
-<td><a href="https://www.fedex.com/grd/rpp/" target="_blank">FedEx Return</a></td>
-</tr>
+<div class="grid-container">
 
-</table>
+<div id="linkBox" class="grid-item">
+<div id="linksCol">
+<em>Links</em>
+<a href="https://weber.incidentiq.com/agent/dashboard" target="_blank">
+	Incident IQ</a>
+<a href="https://techwsd.slack.com/" target="_blank">
+	Slack</a>
+<a href="https://mileage.wsd.net/Account/Login" target="_blank">
+	Mileage</a>
+<a href="https://techdirect.dell.com/Portal/SelfDispatch.aspx" target="_blank">
+	TechDirect</a>
+<a href="https://www.fedex.com/grd/rpp/" target="_blank">
+	FedEx Return</a>
+</div>
+<div id="sheetsCol">
+<em>Sheets</em>
+<a href="https://docs.google.com/spreadsheets/d/1Kso-p55jWbO-GtjlRAWaYnOn4QCK9JyaXzjfmhSV0oo/edit?gid=0#gid=0" target="_blank">
+	Schedule</a>
+<a href="https://docs.google.com/spreadsheets/d/1Q_WJNSCtIsyxsgrHsHiavXnHnuolnEjb6nbdFgs_oyQ/edit?gid=0#gid=0" target="_blank">
+	Repair Tracking</a>
+</div>
 </div>
 
-<div id="calendarBox">
-<iframe src="https://calendar.google.com/calendar/embed?src=c_ee868a2d0920790fa237ef0e3e520b7d7c90a585450456d50efc66e1c95147fb%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<div id="timeBox" class="grid-item" style="background-color: aliceblue">
 </div>
 
-<div id="partsBox">
+<div id="calendarBox" class="grid-item">
+<iframe src="https://calendar.google.com/calendar/embed?src=c_ee868a2d0920790fa237ef0e3e520b7d7c90a585450456d50efc66e1c95147fb%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0; width: 100%; height: 100%" frameborder="0" scrolling="no"></iframe>
+</div>
+
+<div id="partsBox" class="grid-item">
+<em>Parts List</em>
 <table>
 <tr><th>CBD</th><th>Description</th><th>URP</th><th>REC</th></tr>
 <tr><td>1409</td><td>Motherboard</td><td>9002</td><td>8001</td></tr>
@@ -68,6 +73,8 @@
 <tr><td>1998</td><td>T LCD Panel</td><td>9038</td></tr>
 <tr><td>1999</td><td>NT LCD Panel</td><td>9039</td></tr>
 </table>
+</div>
+
 </div>
 
 <footer>

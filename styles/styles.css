@@ -11,22 +11,35 @@ html {
 body {
 	background-color: #434343;
 	color: #f4f4ff;
-	padding: 20px;
+	padding: 0px;
 	width: 80%;
 	margin: 0 auto;
 	box-shadow: 10px -5px 5px 5px #444777, -10px -5px 5px 5px #444777;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 4fr 2fr;
+	grid-template-rows: 3fr 2fr;
+	gap: 20px;
 }
 
 #linkBox a, #linkBox a:visited {
 	color: #bbbbff;
 }
 
-th, td {
-	padding: 0px 10px;
-}
-
 #linkBox {
 	display: flex;
+	flex-direction: column;
+	font-size: 1.3em;
+	padding-left: 20px;
+	background-color: #444777;
+}
+
+#linksCol, #sheetsCol {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
 }
 
 #calendarBox {

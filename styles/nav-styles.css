@@ -1,15 +1,22 @@
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 nav.container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	background-color: #636880;
 	padding: 10px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 0 auto;
 }
 
 nav a, nav a.visited {
 	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Montserrat-Bold, Arial, Helvetica, sans-serif;
 	font-size: 1.3em;
 	color: #333333;
 }
