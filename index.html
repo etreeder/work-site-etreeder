@@ -10,85 +10,170 @@
 </head>
 <body>
 <nav class="container" id="navBar">
-<a href="index.html">Home</a>
-<a href="time.html">Clock In/Out Calculator</a>
+	<a href="index.html">Home</a>
+	<a href="time.html">Clock In/Out Calculator</a>
 </nav>
 
 <div class="main-grid-container">
 
 <div class="linkBox grid-item">
-<div id="linksCol" class="linkCol">
-<em>Links</em>
-<a href="https://weber.incidentiq.com/agent/dashboard" target="_blank">
-	Incident IQ</a>
-<a href="https://techwsd.slack.com/" target="_blank">
-	Slack</a>
-<a href="https://mileage.wsd.net/Account/Login" target="_blank">
-	Mileage</a>
-<a href="https://techdirect.dell.com/Portal/SelfDispatch.aspx" target="_blank">
-	TechDirect</a>
-<a href="https://www.fedex.com/grd/rpp/" target="_blank">
-	FedEx Return</a>
-</div>
-<div id="sheetsCol" class="linkCol">
-<em>Sheets</em>
-<a href="https://docs.google.com/spreadsheets/d/1Kso-p55jWbO-GtjlRAWaYnOn4QCK9JyaXzjfmhSV0oo/edit?gid=0#gid=0" target="_blank">
-	Schedule</a>
-<a href="https://docs.google.com/spreadsheets/d/1Q_WJNSCtIsyxsgrHsHiavXnHnuolnEjb6nbdFgs_oyQ/edit?gid=0#gid=0" target="_blank">
-	Repair Tracking</a>
-</div>
-</div>
-
-<div id="timeBox" class="grid-item">
-<div id="clock"></div>
-</div>
-
-<div id="calendarBox" class="grid-item">
-<iframe src="https://calendar.google.com/calendar/embed?src=c_ee868a2d0920790fa237ef0e3e520b7d7c90a585450456d50efc66e1c95147fb%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0; width: 100%; height: 100%" frameborder="0" scrolling="no"></iframe>
-</div>
-
-<div id="partsBox" class="grid-item">
-<em>Parts List</em>
-<div id="partsGrid">
-<strong>CBD</strong><strong>Description</strong><strong>URP</strong><strong>REC</strong>
-<div class="pi">1409</div><div class="pi">Motherboard</div><div class="pi">9002</div><div class="pi">8001</div>
-<div class="pi">1414</div><div class="pi">Keyboard</div><div class="pi">9003</div><div class="pi">8002</div>
-<div class="pi">1415</div><div class="pi">Palmrest</div><div class="pi">9004</div><div class="pi">8003</div>
-<div class="pi">1417</div><div class="pi">Bottom Cover</div><div class="pi">9006</div><div class="pi">8004</div>
-<div class="pi">1418</div><div class="pi">Bezel</div><div class="pi">9007</div><div class="pi">8005</div>
-<div class="pi">1419</div><div class="pi">Back Cover</div><div class="pi">9008</div><div class="pi">8006</div>
-<div class="pi">1420</div><div class="pi">Battery</div><div class="pi">9009</div><div class="pi">8007</div>
-<div class="pi">1421</div><div class="pi">Battery Cable</div><div class="pi">9010</div><div class="pi">8008</div>
-<div class="pi">1422</div><div class="pi">Individual Key</div><div class="pi">9011</div><div class="pi">&nbsp</div>
-<div class="pi">1423</div><div class="pi">Touchpad</div><div class="pi">9012</div><div class="pi">8009</div>
-<div class="pi">1424</div><div class="pi">LCD Cable (T)</div><div class="pi">9013</div><div class="pi">8010</div>
-<div class="pi">1425</div><div class="pi">LCD Cable (NT)</div><div class="pi">9014</div><div class="pi">8011</div>
-<div class="pi">1426</div><div class="pi">USB Board</div><div class="pi">9015</div><div class="pi">8012</div>
-<div class="pi">1427</div><div class="pi">Camera</div><div class="pi">9016</div><div class="pi">8013</div>
-<div class="pi">1428</div><div class="pi">WiFi Antenna</div><div class="pi">9017</div><div class="pi">8014</div>
-<div class="pi">1429</div><div class="pi">Speakers</div><div class="pi">9018</div><div class="pi">8015</div>
-<div class="pi">1430</div><div class="pi">Hinges</div><div class="pi">9019</div><div class="pi">8016</div>
-<div class="pi">1499</div><div class="pi">Warranty Claim</div><div class="pi">&nbsp</div><div class="pi">&nbsp</div>
-<div class="pi">&nbsp</div><div class="pi">&nbsp</div><div class="pi">&nbsp</div><div class="pi">&nbsp</div>
-<div class="pi">1997</div><div class="pi">Stickers/Graffiti</div><div class="pi">&nbsp</div><div class="pi">&nbsp</div>
-<div class="pi">1998</div><div class="pi">T LCD Panel</div><div class="pi">9038</div><div class="pi">&nbsp</div>
-<div class="pi">1999</div><div class="pi">NT LCD Panel</div><div class="pi">9039</div><div class="pi">&nbsp</div>
-</div>
-</div>
-
-<div class="linkBox grid-item">
+	<div id="linksCol" class="linkCol">
+		<em>Links</em>
+		<a href="https://weber.incidentiq.com/agent/dashboard" target="_blank">
+			Incident IQ</a>
+		<a href="https://techwsd.slack.com/" target="_blank">
+			Slack</a>
+		<a href="https://mileage.wsd.net/Account/Login" target="_blank">
+			Mileage</a>
+		<a href="https://techdirect.dell.com/Portal/SelfDispatch.aspx" target="_blank">
+			TechDirect</a>
+		<a href="https://www.fedex.com/grd/rpp/" target="_blank">
+			FedEx Return</a>
+	</div>
+	<div id="sheetsCol" class="linkCol">
+		<em>Sheets</em>
+		<a href="https://docs.google.com/spreadsheets/d/1Kso-p55jWbO-GtjlRAWaYnOn4QCK9JyaXzjfmhSV0oo/edit?gid=0#gid=0" target="_blank">
+			Schedule</a>
+		<a href="https://docs.google.com/spreadsheets/d/1Q_WJNSCtIsyxsgrHsHiavXnHnuolnEjb6nbdFgs_oyQ/edit?gid=0#gid=0" target="_blank">
+			Repair Tracking</a>
+	</div>
+	<div id="docsCol" class="linkCol">
+		<em>Docs</em>
+		<a href="https://docs.google.com/document/d/1HYQSfUooCNw_ZiLYwEbsz-095fMqii8m1s1ZpD1qL7M/edit">
+			Repair Workflow</a>
+		<a href="https://docs.google.com/document/d/1bJfLrlWtUbkmyb2dsa9Ui9XsDxDfxl80QoLwavFep1s/edit">
+			Refresh Color Guide</a>
+	</div>
 	<div id="gamesCol" class="linkCol">
 		<em>Games</em>
 		<a href="https://minecraftle.zachmanson.com/" target="_blank">
 			Minecraftle</a>
+		<a href="monkeytype.com">
+			Monkeytype</a>
+	</div>
 </div>
 
+<div id="timeBox" class="grid-item">
+	<div id="clock"></div>
+</div>
+
+<div id="calendarBox" class="grid-item">
+	<iframe src="https://calendar.google.com/calendar/embed?src=c_ee868a2d0920790fa237ef0e3e520b7d7c90a585450456d50efc66e1c95147fb%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0; width: 100%; height: 100%" frameborder="0" scrolling="no"></iframe>
+</div>
+
+<div id="partsBox" class="grid-item">
+	<em>Parts List</em>
+	<div id="partsGrid">
+		<strong>CBD</strong><strong>Description</strong>
+		<strong>URP</strong><strong>REC</strong>
+		<div class="pi">1409</div><div class="pi">Motherboard</div>
+		<div class="pi">9002</div><div class="pi">8001</div>
+		<div class="pi">1414</div><div class="pi">Keyboard</div>
+		<div class="pi">9003</div><div class="pi">8002</div>
+		<div class="pi">1415</div><div class="pi">Palmrest</div>
+		<div class="pi">9004</div><div class="pi">8003</div>
+		<div class="pi">1417</div><div class="pi">Bottom Cover</div>
+		<div class="pi">9006</div><div class="pi">8004</div>
+		<div class="pi">1418</div><div class="pi">Bezel</div>
+		<div class="pi">9007</div><div class="pi">8005</div>
+		<div class="pi">1419</div><div class="pi">Back Cover</div>
+		<div class="pi">9008</div><div class="pi">8006</div>
+		<div class="pi">1420</div><div class="pi">Battery</div>
+		<div class="pi">9009</div><div class="pi">8007</div>
+		<div class="pi">1421</div><div class="pi">Battery Cable</div>
+		<div class="pi">9010</div><div class="pi">8008</div>
+		<div class="pi">1422</div><div class="pi">Individual Key</div>
+		<div class="pi">9011</div><div class="pi">&nbsp</div>
+		<div class="pi">1423</div><div class="pi">Touchpad</div>
+		<div class="pi">9012</div><div class="pi">8009</div>
+		<div class="pi">1424</div><div class="pi">LCD Cable (T)</div>
+		<div class="pi">9013</div><div class="pi">8010</div>
+		<div class="pi">1425</div><div class="pi">LCD Cable (NT)</div>
+		<div class="pi">9014</div><div class="pi">8011</div>
+		<div class="pi">1426</div><div class="pi">USB Board</div>
+		<div class="pi">9015</div><div class="pi">8012</div>
+		<div class="pi">1427</div><div class="pi">Camera</div>
+		<div class="pi">9016</div><div class="pi">8013</div>
+		<div class="pi">1428</div><div class="pi">WiFi Antenna</div>
+		<div class="pi">9017</div><div class="pi">8014</div>
+		<div class="pi">1429</div><div class="pi">Speakers</div>
+		<div class="pi">9018</div><div class="pi">8015</div>
+		<div class="pi">1430</div><div class="pi">Hinges</div>
+		<div class="pi">9019</div><div class="pi">8016</div>
+		<div class="pi">1499</div><div class="pi">Warranty Claim</div>
+		<div class="pi">&nbsp</div><div class="pi">&nbsp</div>
+		<div class="pi">&nbsp</div><div class="pi">&nbsp</div>
+		<div class="pi">&nbsp</div><div class="pi">&nbsp</div>
+		<div class="pi">1997</div><div class="pi">Stickers/Graffiti</div>
+		<div class="pi">&nbsp</div><div class="pi">&nbsp</div>
+		<div class="pi">1998</div><div class="pi">T LCD Panel</div>
+		<div class="pi">9038</div><div class="pi">&nbsp</div>
+		<div class="pi">1999</div><div class="pi">NT LCD Panel</div>
+		<div class="pi">9039</div><div class="pi">&nbsp</div>
+	</div>
+</div>
+
+<div class="grid-item">&nbsp;</div>
+<div class="grid-item">&nbsp;</div>
+
+<div id="schoolsList" class="grid-item">
+	<div id="elem" class="schoolList">
+		<em id="schTitle">Schools</em>
+		<div class="sch-num">100</div><div class="sch">Bates</div>
+		<div class="sch-num">105</div><div class="sch">Burch Creek</div>
+		<div class="sch-num">109</div><div class="sch">Country View</div>
+		<div class="sch-num">110</div><div class="sch">H Guy</div>
+		<div class="sch-num">111</div><div class="sch">Green Acres</div>
+		<div class="sch-num">112</div><div class="sch">Hooper</div>
+		<div class="sch-num">113</div><div class="sch">Farr West</div>
+		<div class="sch-num">114</div><div class="sch">Kanesvillle</div>
+		<div class="sch-num">115</div><div class="sch">Freedom</div>
+		<div class="sch-num">116</div><div class="sch">Lakeview</div>
+		<div class="sch-num">120</div><div class="sch">Lomond View</div>
+		<div class="sch-num">121</div><div class="sch">Majestic</div>
+		<div class="sch-num">123</div><div class="sch">Midland</div>
+		<div class="sch-num">124</div><div class="sch">Municipal</div>
+		<div class="sch-num">128</div><div class="sch">N. Ogden</div>
+		<div class="sch-num">132</div><div class="sch">North Park</div>
+		<div class="sch-num">138</div><div class="sch">Pioneer</div>
+		<div class="sch-num">140</div><div class="sch">Plain City</div>
+		<div class="sch-num">141</div><div class="sch">Silver Ridge</div>
+		<div class="sch-num">142</div><div class="sch">Orchard</div>
+		<div class="sch-num">144</div><div class="sch">Riverdale</div>
+		<div class="sch-num">148</div><div class="sch">Roosevelt</div>
+		<div class="sch-num">152</div><div class="sch">Roy</div>
+		<div class="sch-num">154</div><div class="sch">Uintah</div>
+		<div class="sch-num">156</div><div class="sch">Valley</div>
+		<div class="sch-num">160</div><div class="sch">Washington Terrace</div>
+		<div class="sch-num">162</div><div class="sch">West Haven</div>
+		<div class="sch-num">164</div><div class="sch">West Weber</div>
+	</div>
+	
+	<div id="secondary" class="schoolList">
+		<div>&nbsp;</div><div>&nbsp;</div>
+		<div class="sch-num">402</div><div class="sch">N. Ogden</div>
+		<div class="sch-num">403</div><div class="sch">Rocky Mountain</div>
+		<div class="sch-num">404</div><div class="sch">Roy</div>
+		<div class="sch-num">405</div><div class="sch">Orion</div>
+		<div class="sch-num">406</div><div class="sch">Sand Ridge</div>
+		<div class="sch-num">408</div><div class="sch">S. Ogden</div>
+		<div class="sch-num">410</div><div class="sch">T.H. Bell</div>
+		<div class="sch-num">412</div><div class="sch">Snowcrest</div>
+		<div class="sch-num">416</div><div class="sch">Wahlquist</div>
+		
+		<div class="sch-num">701</div><div class="sch">Bonneville</div>
+		<div class="sch-num">704</div><div class="sch">Weber</div>
+		<div class="sch-num">706</div><div class="sch">Fremont</div>
+		<div class="sch-num">708</div><div class="sch">Roy</div>
+		<div class="sch-num">725</div><div class="sch">WIC / 199 WOL</div>
+		<div class="sch-num">730</div><div class="sch">Two Rivers</div>
+	</div>
 </div>
 
 </div>
 
 <footer>
-<p> &#169 A11Development 2024</p>
+<p>&#169 A11Development 2024</p>
 </footer>
 
 <script>

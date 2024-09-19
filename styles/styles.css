@@ -25,16 +25,17 @@ body {
 .main-grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 4fr 2fr;
-	grid-template-rows: 3fr 2fr;
+	grid-template-rows: 1fr 1fr;
 	gap: 0 20px;
 }
 
 .linkBox {
 	display: flex;
+	font-size: 1.1em;
 	flex-direction: column;
-	font-size: 1.3em;
 	padding: 20px 20px 0px 20px;
 	background-color: #444777;
+	grid-row: 1 / span 2;
 }
 
 .linkBox a, .linkBox a:visited {
@@ -62,6 +63,7 @@ body {
   margin-top: 20px;
   padding: 5px 3px;
   background-color: #A8763E;
+  border-radius: 7px;
 }
 
 #calendarBox {
@@ -73,7 +75,7 @@ body {
 	padding-top: 20px;
 }
 
-#partsBox em, #schoolsBox em {
+.grid-item em {
 	font-size: 1.3em;
 }
 
@@ -81,6 +83,29 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 3fr 1fr 1fr;
 	grid-template-rows: repeat(22, 1fr);
+	gap: 1px;
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+
+#schoolsList {
+	display: flex;
+	flex-direction: row;
+}
+
+#schTitle {
+	grid-column-start: 1;
+	grid-column-end: span 2;
+}
+
+.sch-num, .sch {
+	font-size: 0.8em;
+}
+
+#elem, #secondary{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 2fr repeat(27, 1fr);
 	gap: 1px;
 	margin-top: 10px;
 }
