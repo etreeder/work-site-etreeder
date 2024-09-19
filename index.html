@@ -39,7 +39,8 @@
 </div>
 </div>
 
-<div id="timeBox" class="grid-item" style="background-color: aliceblue">
+<div id="timeBox" class="grid-item">
+<div id="clock"></div>
 </div>
 
 <div id="calendarBox" class="grid-item">
@@ -48,31 +49,31 @@
 
 <div id="partsBox" class="grid-item">
 <em>Parts List</em>
-<table>
-<tr><th>CBD</th><th>Description</th><th>URP</th><th>REC</th></tr>
-<tr><td>1409</td><td>Motherboard</td><td>9002</td><td>8001</td></tr>
-<tr><td>1414</td><td>Keyboard</td><td>9003</td><td>8002</td></tr>
-<tr><td>1415</td><td>Palmrest</td><td>9004</td><td>8003</td></tr>
-<tr><td>1417</td><td>Bottom Cover</td><td>9006</td><td>8004</td></tr>
-<tr><td>1418</td><td>Bezel</td><td>9007</td><td>8005</td></tr>
-<tr><td>1419</td><td>Back Cover</td><td>9008</td><td>8006</td></tr>
-<tr><td>1420</td><td>Battery</td><td>9009</td><td>8007</td></tr>
-<tr><td>1421</td><td>Battery Cable</td><td>9010</td><td>8008</td></tr>
-<tr><td>1422</td><td>Individual Key</td><td>9011</td></tr>
-<tr><td>1423</td><td>Touchpad</td><td>9012</td><td>8009</td></tr>
-<tr><td>1424</td><td>LCD Cable (T)</td><td>9013</td><td>8010</td></tr>
-<tr><td>1425</td><td>LCD Cable (NT)</td><td>9014</td><td>8011</td></tr>
-<tr><td>1426</td><td>USB Board</td><td>9015</td><td>8012</td></tr>
-<tr><td>1427</td><td>Camera</td><td>9016</td><td>8013</td></tr>
-<tr><td>1428</td><td>WiFi Antenna</td><td>9017</td><td>8014</td></tr>
-<tr><td>1429</td><td>Speakers</td><td>9018</td><td>8015</td></tr>
-<tr><td>1430</td><td>Hinges</td><td>9019</td><td>8016</td></tr>
-<tr><td>1499</td><td>Warranty Claim</td></tr>
-<tr><td>&nbsp</td></tr>
-<tr><td>1997</td><td>Stickers/Graffiti</td></tr>
-<tr><td>1998</td><td>T LCD Panel</td><td>9038</td></tr>
-<tr><td>1999</td><td>NT LCD Panel</td><td>9039</td></tr>
-</table>
+<div id="partsGrid">
+<strong>CBD</strong><strong>Description</strong><strong>URP</strong><strong>REC</strong>
+<div class="part-item">1409</div><div class="part-item">Motherboard</div><div class="part-item">9002</div><div class="part-item">8001</div>
+<div class="part-item">1414</div><div class="part-item">Keyboard</div><div class="part-item">9003</div><div class="part-item">8002</div>
+<div class="part-item">1415</div><div class="part-item">Palmrest</div><div class="part-item">9004</div><div class="part-item">8003</div>
+<div class="part-item">1417</div><div class="part-item">Bottom Cover</div><div class="part-item">9006</div><div class="part-item">8004</div>
+<div class="part-item">1418</div><div class="part-item">Bezel</div><div class="part-item">9007</div><div class="part-item">8005</div>
+<div class="part-item">1419</div><div class="part-item">Back Cover</div><div class="part-item">9008</div><div class="part-item">8006</div>
+<div class="part-item">1420</div><div class="part-item">Battery</div><div class="part-item">9009</div><div class="part-item">8007</div>
+<div class="part-item">1421</div><div class="part-item">Battery Cable</div><div class="part-item">9010</div><div class="part-item">8008</div>
+<div class="part-item">1422</div><div class="part-item">Individual Key</div><div class="part-item">9011</div><div class="part-item">&nbsp</div>
+<div class="part-item">1423</div><div class="part-item">Touchpad</div><div class="part-item">9012</div><div class="part-item">8009</div>
+<div class="part-item">1424</div><div class="part-item">LCD Cable (T)</div><div class="part-item">9013</div><div class="part-item">8010</div>
+<div class="part-item">1425</div><div class="part-item">LCD Cable (NT)</div><div class="part-item">9014</div><div class="part-item">8011</div>
+<div class="part-item">1426</div><div class="part-item">USB Board</div><div class="part-item">9015</div><div class="part-item">8012</div>
+<div class="part-item">1427</div><div class="part-item">Camera</div><div class="part-item">9016</div><div class="part-item">8013</div>
+<div class="part-item">1428</div><div class="part-item">WiFi Antenna</div><div class="part-item">9017</div><div class="part-item">8014</div>
+<div class="part-item">1429</div><div class="part-item">Speakers</div><div class="part-item">9018</div><div class="part-item">8015</div>
+<div class="part-item">1430</div><div class="part-item">Hinges</div><div class="part-item">9019</div><div class="part-item">8016</div>
+<div class="part-item">1499</div><div class="part-item">Warranty Claim</div><div class="part-item">&nbsp</div><div class="part-item">&nbsp</div>
+<div class="part-item">&nbsp</div><div class="part-item">&nbsp</div><div class="part-item">&nbsp</div><div class="part-item">&nbsp</div>
+<div class="part-item">1997</div><div class="part-item">Stickers/Graffiti</div><div class="part-item">&nbsp</div><div class="part-item">&nbsp</div>
+<div class="part-item">1998</div><div class="part-item">T LCD Panel</div><div class="part-item">9038</div><div class="part-item">&nbsp</div>
+<div class="part-item">1999</div><div class="part-item">NT LCD Panel</div><div class="part-item">9039</div><div class="part-item">&nbsp</div>
+</div>
 </div>
 
 </div>
@@ -80,5 +81,15 @@
 <footer>
 <p> &#169 A11Development 2024</p>
 </footer>
+
+<script>
+    function updateClock() {
+	  const now = new Date();
+	  const time = now.toLocaleTimeString([], { hour12: true });
+	  document.getElementById('clock').textContent = time;
+	}
+	updateClock();
+	setInterval(updateClock, 1000);
+  </script>
 </body>
 </html>

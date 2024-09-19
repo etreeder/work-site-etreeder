@@ -9,7 +9,7 @@ nav.container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	background-color: #636880;
+	background-color: #420039;
 	padding: 10px;
     margin: 0 auto 0 auto;
 }
@@ -18,7 +18,7 @@ nav a, nav a.visited {
 	text-decoration: none;
 	font-family: Montserrat-Bold, Arial, Helvetica, sans-serif;
 	font-size: 1.3em;
-	color: #333333;
+	color: #cfcfea;
 }
 
 nav a:hover {
