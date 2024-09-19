@@ -14,10 +14,10 @@
 <a href="time.html">Clock In/Out Calculator</a>
 </nav>
 
-<div class="grid-container">
+<div class="main-grid-container">
 
-<div id="linkBox" class="grid-item">
-<div id="linksCol">
+<div class="linkBox grid-item">
+<div id="linksCol" class="linkCol">
 <em>Links</em>
 <a href="https://weber.incidentiq.com/agent/dashboard" target="_blank">
 	Incident IQ</a>
@@ -30,7 +30,7 @@
 <a href="https://www.fedex.com/grd/rpp/" target="_blank">
 	FedEx Return</a>
 </div>
-<div id="sheetsCol">
+<div id="sheetsCol" class="linkCol">
 <em>Sheets</em>
 <a href="https://docs.google.com/spreadsheets/d/1Kso-p55jWbO-GtjlRAWaYnOn4QCK9JyaXzjfmhSV0oo/edit?gid=0#gid=0" target="_blank">
 	Schedule</a>
@@ -51,29 +51,38 @@
 <em>Parts List</em>
 <div id="partsGrid">
 <strong>CBD</strong><strong>Description</strong><strong>URP</strong><strong>REC</strong>
-<div class="part-item">1409</div><div class="part-item">Motherboard</div><div class="part-item">9002</div><div class="part-item">8001</div>
-<div class="part-item">1414</div><div class="part-item">Keyboard</div><div class="part-item">9003</div><div class="part-item">8002</div>
-<div class="part-item">1415</div><div class="part-item">Palmrest</div><div class="part-item">9004</div><div class="part-item">8003</div>
-<div class="part-item">1417</div><div class="part-item">Bottom Cover</div><div class="part-item">9006</div><div class="part-item">8004</div>
-<div class="part-item">1418</div><div class="part-item">Bezel</div><div class="part-item">9007</div><div class="part-item">8005</div>
-<div class="part-item">1419</div><div class="part-item">Back Cover</div><div class="part-item">9008</div><div class="part-item">8006</div>
-<div class="part-item">1420</div><div class="part-item">Battery</div><div class="part-item">9009</div><div class="part-item">8007</div>
-<div class="part-item">1421</div><div class="part-item">Battery Cable</div><div class="part-item">9010</div><div class="part-item">8008</div>
-<div class="part-item">1422</div><div class="part-item">Individual Key</div><div class="part-item">9011</div><div class="part-item">&nbsp</div>
-<div class="part-item">1423</div><div class="part-item">Touchpad</div><div class="part-item">9012</div><div class="part-item">8009</div>
-<div class="part-item">1424</div><div class="part-item">LCD Cable (T)</div><div class="part-item">9013</div><div class="part-item">8010</div>
-<div class="part-item">1425</div><div class="part-item">LCD Cable (NT)</div><div class="part-item">9014</div><div class="part-item">8011</div>
-<div class="part-item">1426</div><div class="part-item">USB Board</div><div class="part-item">9015</div><div class="part-item">8012</div>
-<div class="part-item">1427</div><div class="part-item">Camera</div><div class="part-item">9016</div><div class="part-item">8013</div>
-<div class="part-item">1428</div><div class="part-item">WiFi Antenna</div><div class="part-item">9017</div><div class="part-item">8014</div>
-<div class="part-item">1429</div><div class="part-item">Speakers</div><div class="part-item">9018</div><div class="part-item">8015</div>
-<div class="part-item">1430</div><div class="part-item">Hinges</div><div class="part-item">9019</div><div class="part-item">8016</div>
-<div class="part-item">1499</div><div class="part-item">Warranty Claim</div><div class="part-item">&nbsp</div><div class="part-item">&nbsp</div>
-<div class="part-item">&nbsp</div><div class="part-item">&nbsp</div><div class="part-item">&nbsp</div><div class="part-item">&nbsp</div>
-<div class="part-item">1997</div><div class="part-item">Stickers/Graffiti</div><div class="part-item">&nbsp</div><div class="part-item">&nbsp</div>
-<div class="part-item">1998</div><div class="part-item">T LCD Panel</div><div class="part-item">9038</div><div class="part-item">&nbsp</div>
-<div class="part-item">1999</div><div class="part-item">NT LCD Panel</div><div class="part-item">9039</div><div class="part-item">&nbsp</div>
+<div class="pi">1409</div><div class="pi">Motherboard</div><div class="pi">9002</div><div class="pi">8001</div>
+<div class="pi">1414</div><div class="pi">Keyboard</div><div class="pi">9003</div><div class="pi">8002</div>
+<div class="pi">1415</div><div class="pi">Palmrest</div><div class="pi">9004</div><div class="pi">8003</div>
+<div class="pi">1417</div><div class="pi">Bottom Cover</div><div class="pi">9006</div><div class="pi">8004</div>
+<div class="pi">1418</div><div class="pi">Bezel</div><div class="pi">9007</div><div class="pi">8005</div>
+<div class="pi">1419</div><div class="pi">Back Cover</div><div class="pi">9008</div><div class="pi">8006</div>
+<div class="pi">1420</div><div class="pi">Battery</div><div class="pi">9009</div><div class="pi">8007</div>
+<div class="pi">1421</div><div class="pi">Battery Cable</div><div class="pi">9010</div><div class="pi">8008</div>
+<div class="pi">1422</div><div class="pi">Individual Key</div><div class="pi">9011</div><div class="pi">&nbsp</div>
+<div class="pi">1423</div><div class="pi">Touchpad</div><div class="pi">9012</div><div class="pi">8009</div>
+<div class="pi">1424</div><div class="pi">LCD Cable (T)</div><div class="pi">9013</div><div class="pi">8010</div>
+<div class="pi">1425</div><div class="pi">LCD Cable (NT)</div><div class="pi">9014</div><div class="pi">8011</div>
+<div class="pi">1426</div><div class="pi">USB Board</div><div class="pi">9015</div><div class="pi">8012</div>
+<div class="pi">1427</div><div class="pi">Camera</div><div class="pi">9016</div><div class="pi">8013</div>
+<div class="pi">1428</div><div class="pi">WiFi Antenna</div><div class="pi">9017</div><div class="pi">8014</div>
+<div class="pi">1429</div><div class="pi">Speakers</div><div class="pi">9018</div><div class="pi">8015</div>
+<div class="pi">1430</div><div class="pi">Hinges</div><div class="pi">9019</div><div class="pi">8016</div>
+<div class="pi">1499</div><div class="pi">Warranty Claim</div><div class="pi">&nbsp</div><div class="pi">&nbsp</div>
+<div class="pi">&nbsp</div><div class="pi">&nbsp</div><div class="pi">&nbsp</div><div class="pi">&nbsp</div>
+<div class="pi">1997</div><div class="pi">Stickers/Graffiti</div><div class="pi">&nbsp</div><div class="pi">&nbsp</div>
+<div class="pi">1998</div><div class="pi">T LCD Panel</div><div class="pi">9038</div><div class="pi">&nbsp</div>
+<div class="pi">1999</div><div class="pi">NT LCD Panel</div><div class="pi">9039</div><div class="pi">&nbsp</div>
 </div>
+</div>
+
+<div class="linkBox grid-item">
+	<div id="gamesCol" class="linkCol">
+		<em>Games</em>
+		<a href="https://minecraftle.zachmanson.com/" target="_blank">
+			Minecraftle</a>
+</div>
+
 </div>
 
 </div>
